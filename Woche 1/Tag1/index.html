@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<html>
+<head>
+  <meta charset="utf-8">
+   <title>JavaScript 365</title>
+</head>
+<body>
+<h1>Übung Tag 1</h1>
+<h2>Aufgabe</h2>
+<h3>Verkettungs Operator und Template String</h3>
+<ol>
+  <li>Der Benutzer soll nach seinem Vornamen und Nachnamen gefragt werden und beides soll in einer Variablen gespeichert werden</li>
+  <li>Beide Variablen sollen in einem Satz über die Konsole ausgegeben werden mit Hilfe des Verkettungs Operators</li>
+  <li>Nun solle beiden Variablen über die Konsole mit Template Strings ausgeben werden</li>
+  <li>Als letztes sollen beiden Varianten gemischt werden</li>
+</ol>
+<h3>Lösung</h3>
+<pre>
+  "use strict";
+
+  let userVorname = prompt( "Bitte geben Sie Ihren Vornamen ein" );
+  let userName = prompt( "Bitte geben Sie Ihren Nachnamen ein" );
+
+  console.log( "Hallo " + userVorname + ". " + "Dein Nachname lautet " + userName + "." );
+  console.log( `Hallo ${userVorname}. Dein Nachname lautet ${userName}.` );
+  console.log( "Hallo " + userVorname + ` Dein Nachname lautet ${userName}` );
+  
+</pre>
+<script src="js/script.js"></script>
+</body>
+</html>
