@@ -11,12 +11,9 @@ if(userDecision === "Ja"){
 
   if(userFirstQuestion === "*"){
     alert(`Prima ${userName}, das ist richtig!`) //=> Wird ausgeführt wenn erster Augabenstellung übereinstimmt und Benutzer mit "*" antwortet.
-  }
-  if(userFirstQuestion !== "*"){
+  }else{
     alert(`Tut mir leid ${userName}, das ist nicht richtig!`) //=> Wird ausgeführt wenn erster Augabenstellung micht übereinstimmt und Benutzer nicht mit "*" antwortet.
   }
-}
-
-if(userDecision === "Nein"){
+}else{
   alert(`Du hast mit ${userDecision} geantwortet ${userName}. Ich wünsche dir einen schönen Abend!`) //=> Verzweigung wird ausgeführt wenn String "Nein" übereinstimmt
 }
