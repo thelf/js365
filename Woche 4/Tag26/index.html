@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+   <title>JavaScript 365</title>
+   <style>
+    em {
+      font-weight: bold;
+    }
+   </style>
+</head>
+   <title>JavaScript 365</title>
+<body>
+<h1>Übung Tag 26</h1>
+<h2>Aufgabe Arbeiten mit der String-API - substr </h2>
+<p>Der Name des Anwenders besteht aus einem Vornamen und einen Nachnamen.</p>
+<pre>
+"use strict";
+
+let name = "Ladislaus Jones";
+let spacePosition = name.indexOf(" ");
+
+// Die Zählung beginnt bei 0 (L von Ladislaus, von dort 9 Zeichen nach rechts)
+let firstName = name.substr(0, spacePosition);
+
+// Für den Nachnamen werden alle Buchstaben ab Position 10 benötigt. Auf das 2te Argumment kann verzichtet werden.
+let lastName = name.substr(spacePosition +1);
+
+console.log(firstName);
+console.log(lastName);
+</pre>
+<p>In der Konsole wird der Vorname und der Nachname ausgegeben. Wenn der Benutzer zwei Vornamen und einen Nachnamen hat, ordnet das Programm den zweiten Vornamen dem Nachnamen zu.</p>
+<ul>
+  <li>Korrigieren Sie die Ausgabe des Codes mit Hile von <strong>lastIndexOf</strong></li>
+</ul>
+<script src="js/script.js"></script>
+</body>
+</html>
