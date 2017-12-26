@@ -25,6 +25,10 @@ JavaScript Übungen für 365 Tage
 #### 09. Logische Operatoren
 
 #### 10. String-API
+* [Einen String extrahieren mit substr](https://github.com/thelf/js365/blob/master/Monat%201/Woche%204/Tag26/index.html)
+* [Leerzeichen entfernen mit trim](https://github.com/thelf/js365/blob/master/Monat%201/Woche%204/Tag27/index.html)
+* [Position eines zu extrahierenden Zeichens finden](https://github.com/thelf/js365/blob/master/Monat%201/Woche%204/Tag28/index.html)
+* [Einen String in Kleinbuchstaben umwandeln mit toLowerCase](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag29/index.html)
 
 #### 11. Funktionen
 
