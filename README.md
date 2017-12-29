@@ -39,8 +39,12 @@ JavaScript Übungen für 365 Tage
 * [Position eines zu extrahierenden Zeichens finden charAt](https://github.com/thelf/js365/blob/master/Monat%201/Woche%204/Tag28/index.html)
 * [Einen String in Kleinbuchstaben umwandeln mit toLowerCase](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag29/index.html)
 * [Einen String austauschen mit replace](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag30/index.html)
+* [Einen String (Artikelnummer) ergänzen]
 
 #### 11. Funktionen
+* [Ausgeben des Benutzernamens in der Konsole](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag33/index.html)
+* [Newsletter personalisieren mit verschiedenen Empfängern](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag34/index.html)
+* [Newsletter personalisieren mit verschiedenen Empfängern, unterschiedenen nach Geschlecht](https://github.com/thelf/js365/blob/master/Monat%202/Woche%205/Tag35/index.html)
 
 #### 12. Funktionen Rückgabewert
 
