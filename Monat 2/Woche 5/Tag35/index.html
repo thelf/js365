@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+   <title>JavaScript 365</title>
+   <style>
+    em {
+      font-weight: bold;
+    }
+   </style>
+</head>
+   <title>JavaScript 365</title>
+<body>
+<h1>Übung Tag 35</h1>
+<h2>Funktionen</h2>
+<p>Schreiben Sie eine Funktion, die einen personalisierten Newsletter ausgibt.</p>
+<p>Hallo Herr Mustermann,<br>
+Wir freuen uns Sie darüber informieren zu können, dass Sie 10.000 € gewonnen haben! <br>
+Herzlichen Glückwunsch!<br>
+Bitte teilen Sie per E-Mail Ihre Bankdaten mit, so dass wir Ihnen den Gewinn auszahlen können. <br>
+Mit freundlichen Grüßen <br>
+Ihre Lotterie
+</p>
+<ol>
+  <li>
+    <ol>
+      <li>Progammieren Sie eine Funktion, die den Versand (hier simuliert durch die Konsolenausgabe) des Newsletters übernimmt.</li>
+      <li>Dabei soll statt Mustermann ein beliebiger Namen verwendbar sein.</li>
+      <li>Folgende Aufrufe erfolgen später durch die Datenbank:
+        <ul>
+          <li>showNewsletterFor("Schmidt");</li>
+          <li>showNewsletterFor("Müller");</li>
+          <li>showNewsletterFor("Klein");</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ol>
+<ol start="2">
+  <li>
+    <ol>
+      <li>Übergeben Sie der Funktion einen zweiten Parameter mit korrekter Anrede, die Sie dann in der ersten Zeile des Newsletters verwenden</li>
+      <li>Einen zweiten Parameter können Sie bei der Funktionsdefinition innerhalb der Klammern durch Komma getrennt angeben.</li>
+      <li>Folgende Aufrufe erfolgen später durch die Datenbank:
+        <ul>
+          <li>showNewsletterFor("Schmidt", "Herr");</li>
+          <li>showNewsletterFor("Müller", "Frau");</li>
+          <li>showNewsletterFor("Klein", "Herr");</li>
+        </ul>
+    </ol>
+  </li>
+</ol>
+<ol start="3">
+  <li>
+    <ol>
+      <li>Locken Sie mit individuellen Gewinnen, die Sie nach Geschlecht unterscheiden. Dafür entwicklen Sie einen Newsletter, der die folgenden Texte enhält:</li>
+        <ul>
+          <li>Männliche Version:</li>
+          <li>Herzlichen Glückwunsch, Sie haben ein Auto gewonnen!</li>
+        </ul>
+        <ul>
+          <li>Weibliche Version:</li>
+          <li>Herzlichen Glückwunsch, Sie haben ein neues Parfüm gewonnen und eine Reise nach Paris gewonnen!</li>
+        </ul>
+    </ol>
+  </li>
+</ol>
+
+<script src="js/script.js"></script>
+</body>
+</html>
